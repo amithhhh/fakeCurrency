@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <button onclick="speak()">Test Speak</button>
+    <script>
+        function speak() {
+            const utterance = new SpeechSynthesisUtterance("This is a test.");
+            utterance.lang = 'en-IN';
+            speechSynthesis.speak(utterance);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+Upload Note Image,Prediction (spoken),timestamp
+.gradio\flagged\Upload Note Image\c0c8b04aef2b6dd46725\2000.jpg,"'
+    <script>
+        const msg = new SpeechSynthesisUtterance(""The given note is a 2 thousand rupees note."");
+        window.speechSynthesis.speak(msg);
+    </script>
+    <p style='font-size:20px;'>The given note is a 2 thousand rupees note.</p>
+    ",2025-06-07 06:29:01.700638
