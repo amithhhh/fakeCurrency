@@ -21,28 +21,21 @@ A voice-enabled web application that detects Indian currency notes using a deep 
 git clone https://github.com/amithhhh/fakeCurrency.git
 cd fakeCurrency
 2. 🛠️ Create a Virtual Environment
-bash
-Copy
-Edit
+
 python -m venv env
+
 3. ▶️ Activate the Virtual Environment
+
 Command Prompt:
-
-bash
-Copy
-Edit
 env\Scripts\activate
-PowerShell:
 
-bash
-Copy
-Edit
+PowerShell:
 .\env\Scripts\Activate.ps1
+
 4. 📥 Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
+
 ✅ Make sure you're connected to the internet. All necessary packages including gradio, torch, pyttsx3, etc., will be installed.
 
 🧠 Model Info
@@ -73,14 +66,7 @@ Ensure sound is allowed in your browser for localhost.
 
 💻 How to Run the App
 Once setup is complete, run:
-
-bash
-Copy
-Edit
 python app.py
-The app will start at:
 
-text
-Copy
-Edit
+The app will start at:
 http://127.0.0.1:7860
